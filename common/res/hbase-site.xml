@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+    <property>
+        <name>hbase.cluster.distributed</name>
+        <value>true</value>
+    </property>
+
+    <property>
+        <name>hbase.rootdir</name>
+        <value>hdfs://yang1:9000/hbase</value>
+    </property>
+
+    <property>
+        <name>hbase.master</name>
+        <value>yang1:60000</value>
+    </property>
+
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>yang1,yang2,yang3</value>
+    </property>
+
+</configuration>
